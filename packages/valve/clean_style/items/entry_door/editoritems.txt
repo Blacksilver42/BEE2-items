@@ -17,10 +17,10 @@
 				"Image"		"palette/door.png"
 			}
 		}
-		"MovementHandle"		"HANDLE_NONE"
-		"InvalidSurface"		"CEILING FLOOR"
-		"Deletable"		"0"
-		"Copyable"		"0"
+		"MovementHandle"    "HANDLE_NONE"
+		"InvalidSurface"    "FLOOR"
+		"Deletable"         "0"
+		"Copyable"          "0"
 	}
 	"Properties"
 	{
@@ -83,6 +83,13 @@
 				"BrushCount"		"124"
 				"BrushSideCount"	"838"
 			}
+			"vert_down"
+			{
+				"Name"				"instances/BEE2/clean/elevator_sp/door_entrance_down.vmf"
+			}
+			"frame_vert_down_white" "instances/BEE2/clean/elevator_sp/door_entrance_down_white.vmf"
+			"frame_vert_down_black" "instances/BEE2/clean/elevator_sp/door_entrance_down_black.vmf"
+			
 			"7"
 			{
 				"Name"				"instances/BEE2/clean/elevator_sp/door_frame_white.vmf"
