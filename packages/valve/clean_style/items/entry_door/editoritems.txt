@@ -18,7 +18,6 @@
 			}
 		}
 		"MovementHandle"    "HANDLE_NONE"
-		"InvalidSurface"    "FLOOR"
 		"Deletable"         "0"
 		"Copyable"          "0"
 	}
@@ -83,6 +82,14 @@
 				"BrushCount"		"124"
 				"BrushSideCount"	"838"
 			}
+			
+			"vert_up"
+			{
+				"Name"				"instances/BEE2/clean/elevator_sp/door_entrance_up.vmf"
+			}
+			"frame_vert_up_white" "instances/BEE2/clean/elevator_sp/door_entrance_up_white.vmf"
+			"frame_vert_up_black" "instances/BEE2/clean/elevator_sp/door_entrance_up_black.vmf"
+			
 			"vert_down"
 			{
 				"Name"				"instances/BEE2/clean/elevator_sp/door_entrance_down.vmf"
