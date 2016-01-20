@@ -22,7 +22,7 @@
 			}
 		}
 		"MovementHandle"		"HANDLE_NONE"
-		"InvalidSurface"		"CEILING FLOOR"
+		"InvalidSurface"		"FLOOR"
 		"Deletable"		"0"
 		"Copyable"		"0"
 	}
@@ -90,6 +90,17 @@
 				"BrushCount"		"27"
 				"BrushSideCount"	"188"
 			}
+			
+			"vert_up"               "instances/BEE2/clean/elevator_sp/door_exit_up.vmf"
+			"vert_up_no_sign"       "instances/BEE2/clean/elevator_sp/door_exit_up/nosign.vmf"
+			"vert_up_signage"       "instances/BEE2/clean/elevator_sp/door_exit_up/sign.vmf"
+			"vert_up_preview"       "instances/BEE2/clean/elevator_sp/door_exit_up/preview.vmf"
+			"vert_up_tag_fizz"      "instances/BEE2/clean/elevator_sp/door_exit_up/tag.vmf"
+			"vert_up_p2_fizz"       "instances/BEE2/clean/elevator_sp/door_exit_up/p2.vmf"
+			
+			// The surface is always white.
+			"frame_vert_up_white"   ""
+			"frame_vert_up_black"   ""
 		}
 
 		"TargetName"		"doorexit"
