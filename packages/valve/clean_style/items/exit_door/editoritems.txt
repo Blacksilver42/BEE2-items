@@ -21,10 +21,9 @@
 				"Image"		"palette/exit_door.vtf"
 			}
 		}
-		"MovementHandle"		"HANDLE_NONE"
-		"InvalidSurface"		"FLOOR"
-		"Deletable"		"0"
-		"Copyable"		"0"
+		"MovementHandle"    "HANDLE_NONE"
+		"Deletable"         "0"
+		"Copyable"          "0"
 	}
 	"Properties"
 	{
@@ -98,9 +97,16 @@
 			"vert_up_tag_fizz"      "instances/BEE2/clean/elevator_sp/door_exit_up/tag.vmf"
 			"vert_up_p2_fizz"       "instances/BEE2/clean/elevator_sp/door_exit_up/p2.vmf"
 			
-			// The surface is always white.
+			// The surface is always black.
 			"frame_vert_up_white"   ""
 			"frame_vert_up_black"   ""
+			
+			"vert_down"             "instances/BEE2/clean/elevator_sp/door_exit_down.vmf"
+			"vert_down_preview"     "instances/BEE2/clean/elevator_sp/door_exit_down/preview.vmf"
+			"vert_down_tag_fizz"    "instances/BEE2/clean/elevator_sp/door_exit_down/tag.vmf"
+			"vert_down_p2_fizz"     "instances/BEE2/clean/elevator_sp/door_exit_down/p2.vmf"
+			"frame_vert_down_white" "instances/BEE2/clean/elevator_sp/door_exit_down/cover_white.vmf"
+			"frame_vert_down_black" "instances/BEE2/clean/elevator_sp/door_exit_down/cover_black.vmf"
 		}
 
 		"TargetName"		"doorexit"

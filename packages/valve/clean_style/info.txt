@@ -249,6 +249,24 @@
 	"ID"       "PACK_SQUAREBEAMS_NOPAINT"
 	"AddIfMat" "BEE2/no_paint/squarebeams"
 	}
+
+"PackList"
+	{
+	"ID"        "PACK_BEE2_NOPAINT_ARROW_CLEAN"
+	"Config"
+		{
+		"File"  "materials/BEE2/no_paint/signage_arrow_world.vmt"
+		}
+	}
+
+"PackList"
+	{
+	"ID"        "PACK_BEE2_NOPAINT_EXIT_SIGN"
+	"Config"
+		{
+		"File"  "materials/BEE2/no_paint/signage_arrow_world.vmt"
+		}
+	}
 	
 "PackList"
 	{
