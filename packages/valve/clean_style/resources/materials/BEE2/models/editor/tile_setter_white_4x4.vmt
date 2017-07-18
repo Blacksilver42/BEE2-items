@@ -1,0 +1,6 @@
+VertexlitGeneric
+{
+$basetexture "tile/white_wall_tile003f"
+$bumpmap "tile/white_wall_tile003f_height-ssbump"
+$ssbump 1
+}

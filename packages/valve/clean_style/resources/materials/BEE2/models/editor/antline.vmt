@@ -1,0 +1,7 @@
+UnlitGeneric
+{
+$basetexture "BEE2/models/props_map_editor/antline_circle_full"
+$translucent 1
+$model 1
+$nocull 1
+}

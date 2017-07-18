@@ -1,0 +1,8 @@
+VertexlitGeneric
+{
+$basetexture "tile/white_wall_tile003a"
+$basetexturetransform "center .5 .5 scale 1 1 rotate 0 translate -0.125 0"
+
+$bumpmap "tile/white_wall_tile003a_normal"
+$ssbump 1
+}
