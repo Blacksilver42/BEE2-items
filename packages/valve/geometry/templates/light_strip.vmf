@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7378"
-	"mapversion" "7"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "32"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "7"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -51,9 +51,9 @@ entity
 	"id" "2"
 	"classname" "bee2_template_tilesetter"
 	"angles" "0 0 0"
-	"color" "white"
-	"skin" "2"
-	"origin" "0 16 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "0 16 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -67,9 +67,9 @@ entity
 	"id" "11"
 	"classname" "bee2_template_tilesetter"
 	"angles" "0 0 0"
-	"color" "white"
-	"skin" "2"
-	"origin" "0 48 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "0 48 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -83,9 +83,9 @@ entity
 	"id" "13"
 	"classname" "bee2_template_tilesetter"
 	"angles" "0 0 0"
-	"color" "white"
-	"skin" "2"
-	"origin" "0 -16 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "0 -16 -64"
 	editor
 	{
 		"color" "220 30 220"
@@ -99,9 +99,9 @@ entity
 	"id" "17"
 	"classname" "bee2_template_tilesetter"
 	"angles" "0 0 0"
-	"color" "white"
-	"skin" "2"
-	"origin" "0 -48 0"
+	"color" "tile"
+	"skin" "4"
+	"origin" "0 -48 -64"
 	editor
 	{
 		"color" "220 30 220"
