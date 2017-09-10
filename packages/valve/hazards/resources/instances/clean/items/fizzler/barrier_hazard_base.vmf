@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "7378"
-	"mapversion" "43"
+	"editorbuild" "7552"
+	"mapversion" "45"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "43"
+	"mapversion" "45"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -39,7 +39,7 @@ entity
 		"OnHitMax" "branchToggleTest0-1"
 		"OnChangedFromMax" "branchToggleTest0-1"
 	}
-	"origin" "0 32 32"
+	"origin" "-16 16 32"
 	editor
 	{
 		"color" "0 100 250"
@@ -63,7 +63,7 @@ entity
 		"OnTrue" "brushActivate0-1"
 		"OnFalse" "brushDeactivate0-1"
 	}
-	"origin" "0 -32 32"
+	"origin" "-16 -16 32"
 	editor
 	{
 		"color" "0 100 250"
@@ -82,7 +82,7 @@ entity
 		"OnProxyRelay" "counterAdd10-1"
 		"OnProxyRelay" "counterSubtract10-1"
 	}
-	"origin" "0 -16 48"
+	"origin" "16 -16 32"
 	editor
 	{
 		"color" "220 30 220"
@@ -115,7 +115,7 @@ entity
 	"classname" "func_instance_parms"
 	"parm1" "$connectioncount integer"
 	"parm2" "$start_enabled integer"
-	"origin" "0 16 48"
+	"origin" "16 16 32"
 	editor
 	{
 		"color" "220 30 220"
