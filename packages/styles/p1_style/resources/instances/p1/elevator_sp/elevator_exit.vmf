@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7378"
-	"mapversion" "926"
+	"mapversion" "932"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "926"
+	"mapversion" "932"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -11072,20 +11072,6 @@ entity
 }
 entity
 {
-	"id" "136029"
-	"classname" "env_cubemap"
-	"cubemapsize" "0"
-	"origin" "-512 -32 105"
-	editor
-	{
-		"color" "0 0 255"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[6000 5500]"
-	}
-}
-entity
-{
 	"id" "134850"
 	"classname" "trigger_portal_cleanser"
 	"origin" "-576.38 -30.87 95.68"
@@ -11194,7 +11180,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-575.888 24.3643 95.9174"
+	"origin" "-576 22 95.9174"
 	editor
 	{
 		"color" "255 255 0"
@@ -11219,7 +11205,7 @@ entity
 	"screenspacefade" "0"
 	"skin" "0"
 	"solid" "6"
-	"origin" "-575.888 -86.1041 95.9174"
+	"origin" "-576 -86 95.9174"
 	editor
 	{
 		"color" "255 255 0"
@@ -11265,7 +11251,6 @@ entity
 	"width" "128"
 	connections
 	{
-		"OnPlayerTeleportToMe" "@glados_generic_exitTrigger01"
 		"OnPlayerTeleportToMe" "elevator_door_model_openTrigger01"
 	}
 	"origin" "-672 -32 96"
@@ -11287,8 +11272,7 @@ entity
 	connections
 	{
 		"OnTrigger" "@exit_doorClose0-1"
-		"OnTrigger" "@musicStopSound0-1"
-		"OnTrigger" "@musicKill0.01-1"
+		"OnTrigger" "@music_stopTrigger0-1"
 	}
 	solid
 	{
@@ -11379,8 +11363,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[-456.794 -42.1639 123.915]"
-		"look" "[-400.26 -43.7419 95.84]"
+		"position" "[-648.323 -62.6305 178.066]"
+		"look" "[-641.555 -33.7699 122.316]"
 	}
 	camera
 	{

@@ -61,9 +61,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/arrival.png"
+	"IconLarge"   "music_lrg/ap_tag/arrival.png"
 	"Authors"     "Christopher McEvoy"
 	"Description" "The background music for the introduction cinematic."
-	"SoundScript" "#*music/aptag_01.wav"
+	"SoundScript"
+		{
+		"Base"  "music/aptag_01.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_discovery_01.ogg"
 	// also music/tag_discovery_01.wav, but aptag01 is longer!
 	}
@@ -75,9 +80,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/soundtrack.png"
+	"IconLarge"   "music_lrg/ap_tag/soundtrack.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A very dramatic music track. This is not used in any maps."
-	"SoundScript" "#*music/tag_mild_05.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_05.wav"
+		"tBeam" "BEE2/music/sp_a4_finale1_tbin_looped.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_05.ogg"
 	// Also music/aptag_3.wav, but that one just has an extra second of silence.
 	}
@@ -89,9 +99,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/soundtrack.png"
+	"IconLarge"   "music_lrg/ap_tag/soundtrack.png"
 	"Authors"     "Christopher McEvoy"
 	"Description" "An unused music track."
-	"SoundScript" "#*music/tag_mild_11.wav"
+	"SoundScript"
+		{
+		"Base" "music/tag_mild_11.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_11.ogg"
 	}
 
@@ -103,9 +118,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/escape.png"
+	"IconLarge"   "music_lrg/ap_tag/escape.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The track played during the timed ASSLER explosion escape sequence."
-	"SoundScript" "#*music/escape_music.wav"
+	"SoundScript"
+		{
+		"Base"  "music/escape_music.wav"
+		"tBeam" "BEE2/music/sp_a4_finale1_tbin_looped.wav"
+		}
 	"Sample"      "ap_tag/escape_music.ogg"
 	}
 
@@ -116,9 +136,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/concerned.png"
+	"IconLarge"   "music_lrg/ap_tag/concerned.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song played in the third Aperture Tag map, where many jumps must be performed in a circle around a chamber."
-	"SoundScript" "#*music/tag_slow_01.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_01.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_01.ogg"
 	}
 
@@ -129,9 +154,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/slow_2.png"
+	"IconLarge"   "music_lrg/ap_tag/slow_2.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song played in the very first Aperture Tag maps, introducing the map."
-	"SoundScript" "#*music/tag_slow_02.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_02.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_02.ogg"
 	}
 	
@@ -142,9 +172,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/get_to_it.png"
+	"IconLarge"   "music_lrg/ap_tag/get_to_it.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song played in some of the early Aperture Tag Chambers."
-	"SoundScript" "#*music/tag_slow_03.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_03.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_03.ogg"
 	}
 
@@ -155,9 +190,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/art_therapy.png"
+	"IconLarge"   "music_lrg/ap_tag/art_therapy.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music used in the map containing Old Aperture Turrets, Funnels, Discouragment Beams and Light Bridges."
-	"SoundScript" "#*music/tag_slow_04.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_04.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_04.ogg"
 	}
 
@@ -168,9 +208,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/the_glitch.png"
+	"IconLarge"   "music_lrg/ap_tag/the_glitch.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "Music played in the Old Aperture map with a piston below a portal surface."
-	"SoundScript" "#*music/tag_slow_05.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_05.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_05.ogg"
 	}
 
@@ -181,9 +226,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/life_support.png"
+	"IconLarge"   "music_lrg/ap_tag/life_support.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music played in the first modern chamber."
-	"SoundScript" "#*music/tag_slow_06.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_06.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_06.ogg"
 	}
 
@@ -194,9 +244,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/life_too_short.png"
+	"IconLarge"   "music_lrg/ap_tag/life_too_short.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music played in the map with the spinning Blue-Gel surface."
-	"SoundScript" "#*music/tag_slow_07.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_07.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_07.ogg"
 	}
 
@@ -208,9 +263,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/life_shortening_test_cond.png"
+	"IconLarge"   "music_lrg/ap_tag/life_shortening_test_cond.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music played in the first modern chamber using Portals."
-	"SoundScript" "#*music/tag_slow_08.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_08.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_08.ogg"
 	}
 
@@ -221,9 +281,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/moving_parts.png"
+	"IconLarge"   "music_lrg/ap_tag/moving_parts.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A music track featuring machine noises, used for the final map."
-	"SoundScript" "#*music/tag_slow_09.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_09.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_09.ogg"
 	}
 
@@ -234,9 +299,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/take_it_slow.png"
+	"IconLarge"   "music_lrg/ap_tag/take_it_slow.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music used when replaying the ruined Portal Test Chambers 4 and 5, using the Paint Gun instead of a Portal Device."
-	"SoundScript" "#*music/tag_slow_10.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_10.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_10.ogg"
 	}
 
@@ -248,9 +318,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/pull_together.png"
+	"IconLarge"   "music_lrg/ap_tag/pull_together.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music for the map involving lasers, turrets, and a fling around a laserfield."
-	"SoundScript" "#*music/tag_slow_11.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_11.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_11.ogg"
 	}
 
@@ -262,9 +337,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/reconstructing_ambience.png"
+	"IconLarge"   "music_lrg/ap_tag/reconstructing_ambience.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song with a similar beat to Reconstructing Science."
-	"SoundScript" "#*music/tag_slow_12.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_12.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_12.ogg"
 	}
 
@@ -275,9 +355,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/ride_it_out.png"
+	"IconLarge"   "music_lrg/ap_tag/ride_it_out.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The music used for the first 'Stage' map."
-	"SoundScript" "#*music/tag_slow_13.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_13.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_13.ogg"
 	}
 
@@ -289,9 +374,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/sterilised_environs.png"
+	"IconLarge"   "music_lrg/ap_tag/sterilised_environs.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song used in the second 'Stage' maps. This test involved flinging straight up through a gun fizzler."
-	"SoundScript" "#*music/tag_slow_14.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_14.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_14.ogg"
 	}
 
@@ -302,9 +392,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/system_leak.png"
+	"IconLarge"   "music_lrg/ap_tag/system_leak.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The track played in the 'Stage' map with 3 laser cubes."
-	"SoundScript" "#*music/tag_slow_15.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_15.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_15.ogg"
 	}
 
@@ -316,9 +411,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/time_essence.png"
+	"IconLarge"   "music_lrg/ap_tag/time_essence.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song played in a latter 'Stage' map, where players have to bounce between a light bridge and a wall."
-	"SoundScript" "#*music/tag_slow_16.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_16.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_16.ogg"
 	}
 
@@ -329,9 +429,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/trials.png"
+	"IconLarge"   "music_lrg/ap_tag/trials.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A track played during a difficult Blue-Gel chamber which uses Excursion Funnels."
-	"SoundScript" "#*music/tag_slow_17.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_slow_17.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_slow_17.ogg"
 	}
 
@@ -342,9 +447,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/boots.png"
+	"IconLarge"   "music_lrg/ap_tag/boots.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A track played in the last Blue Gel-only map. Here Nigel first uses the large monitor screens."
-	"SoundScript" "#*music/tag_mild_04.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_04.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_04.ogg"
 	}
 
@@ -356,9 +466,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/build_up.png"
+	"IconLarge"   "music_lrg/ap_tag/build_up.png"
 	"Authors"     "Christopher McEvoy"
-	"Description" "The music used in the first Orange Gel test, which also reintroduces Crushers."
-	"SoundScript" "#*music/tag_mild_06.wav"
+	"Description" "The music used in the first Orange Gel test, which also introduces Crushers."
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_06.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_06.ogg"
 	}
 
@@ -370,9 +485,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/certifiably_insane.png"
+	"IconLarge"   "music_lrg/ap_tag/certifiably_insane.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A track played in a latter 'Stage' map, where gel must be placed in advance before passing through a fizzler."
-	"SoundScript" "#*music/tag_mild_07.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_07.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_07.ogg"
 	}
 
@@ -384,9 +504,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/complete_circuit.png"
+	"IconLarge"   "music_lrg/ap_tag/complete_circuit.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A song played in a modern chamber only using gel flings for the puzzle."
-	"SoundScript" "#*music/tag_mild_08.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_08.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_08.ogg"
 	}
 
@@ -397,9 +522,14 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/you_sure.png"
+	"IconLarge"   "music_lrg/ap_tag/you_sure.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "The track played on the Citranium-focused level, where advertisments are everywhere."
-	"SoundScript" "#*music/tag_mild_09.wav"
+	"SoundScript"
+		{
+		"Base"  "music/tag_mild_09.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_09.ogg"
 	}
 
@@ -410,8 +540,13 @@
 	"Group"       "Aperture Tag"
 	"Game"        "aptag"
 	"Icon"        "music/ap_tag/precious_test.png"
+	"IconLarge"   "music_lrg/ap_tag/precious_test.png"
 	"Authors"     "Harry Callaghan"
 	"Description" "A track similar to Your Precious Moon/Don't Do It. This is played on the level which requires bouncing on ceiling-placed Repulsion Gel."
-	"SoundScript" "#*music/tag_mild_10.wav"
+	"SoundScript" 
+		{
+		"Base"  "music/tag_mild_10.wav"
+		"tBeam" "music/sp_a4_tb_intro_tbin.wav"
+		}
 	"Sample"      "ap_tag/tag_mild_10.ogg"
 	}

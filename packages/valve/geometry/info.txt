@@ -24,6 +24,15 @@
 		"File" "materials/BEE2/grate_player_clip.vmt"
 		}
 	}
+
+"PackList"
+	{
+	"ID" "BEE2_CLEAN_GLASS_PANEL"
+	"Config"
+		{
+		"File" "models/BEE2/panels/bee2_clean_glass_panel.mdl" // Fixed transparency on the model.
+		}
+	}	
 	
 "Item"
 	{
@@ -35,6 +44,16 @@
 			"BEE2_CLEAN"	"glass"
 			}
 		}
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_GLASS_TEMPLATE"
+	"File"  "glass_template.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_GRATING_TEMPLATE"
+	"File"  "grating_template.vmf"
 	}
 "Item"
 	{
@@ -181,6 +200,7 @@
 		"" "* Players are killed and objects are destroyed if they block downward movement of the piston."
 		"" "* The Auto Drop option enables or disables player detection. If enabled the platform will only move when players stand on the lift."
 		"" "* If connections are attached, they must be all active first before the lift will function."
+		"" "* Cube Type allows using Portalable or non-Portalable surfaces on the top of the platform. Sphere and Franken should not be used."
 		}
 	"Version"
 		{
@@ -189,4 +209,10 @@
 			"BEE2_CLEAN"	"piston_plat"
 			}
 		}
+	}
+	
+"BrushTemplate"
+	{
+	"ID"    "BEE2_PISTON_PLATFORM_MODERN"
+	"File"  "piston_plat.vmf"
 	}

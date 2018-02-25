@@ -11,6 +11,7 @@
 	"Folder"		"1950s"
 	"Group"			"Old Aperture"
 	"Icon"			"styles/aperture_50s"
+	"IconLarge"  		"prev/aperture_50s"
 	"Has_Video"		"0"
 	"VPK_Name"      "VPK_BEE2_1950S"
 	"Description"
@@ -57,6 +58,7 @@
 	"ShortName"		"1960s"
 	"Group"			"Old Aperture"
 	"Icon"			"styles/aperture_60s"
+	"IconLarge" 		"prev/aperture_60s"
 	"Folder"		"1960s"
 	"Base"			"BEE2_1950s"
 	"VPK_Name"      "VPK_BEE2_1950S" // The style has mostly the same textures..
@@ -88,6 +90,7 @@
 	"ShortName"		"1970s"
 	"Group"			"Old Aperture"
 	"Icon"			"styles/aperture_70s"
+	"IconLarge"  		"prev/aperture_70s"
 	"Folder"		"1970s"
 	"Base"			"BEE2_1950s"
 	"VPK_Name"      "VPK_BEE2_1970S"
@@ -133,6 +136,7 @@
 	"ShortName"		"1980s"
 	"Group"			"Old Aperture"
 	"Icon"			"styles/aperture_80s"
+	"IconLarge" 		"prev/aperture_80s"
 	"VPK_Name"      "VPK_BEE2_1980S"
 	"Folder"		"1980s"
 	"Base"			"BEE2_1970s"
@@ -164,6 +168,28 @@
 		}
 	}
 	
+"ConfigGroup"
+	{
+	"ID"    "BEE2_OLD_APERTURE"
+	"Name"  "Old Aperture"
+	"Widget"
+		{
+		"ID"	  "VARIANT_OBS_ROOM"
+		"Label"   "Obs Room"
+		"Tooltip" "Old Aperture Observation Rooms are grating showing the exterior of the Enrichment Sphere. The alternate version is a normal office."
+		"Type"    "ItemVariant"
+		"ItemID"  "ITEM_OBSERVATION_ROOM"
+		}
+	"Widget"
+		{
+		"ID"	  "VARIANT_FAITH_PLATE"
+		"Label"   "Faith Plate"
+		"Tooltip" "Faith Plates are replaced by specially-shaped blobs of Repulsion Gel. The alternate version is a mechanical catapult."
+		"Type"    "ItemVariant"
+		"ItemID"  "ITEM_CATAPULT"
+		}
+	}
+	
 
 "SkyBox"
 	{
@@ -172,6 +198,7 @@
 	"ShortName"     "Sphere Interior"
 	"Group"         "2D"
 	"Icon"          "styles/aperture_60s.png" // Includes an enrichment sphere icon to show 'vitrified'
+	"IconLarge"     "prev/sky_sphere_int.png"
 	"Material"      "sky_black"
 	"Authors"       "Valve"
 	"Description"   "The fog used for the interior of Enrichment Spheres."
@@ -198,7 +225,7 @@
 	"ShortName"     "Sphere Exterior"
 	"Group"         "2D"
 	"Icon"          "skies/sphere_exterior.png"
-	"IconLarge"     "skies_lrg/sphere_exterior.png"
+	"IconLarge"     "prev/sky_sphere_ext.png"
 	"Material"      "sky_black"
 	"Authors"       "Valve"
 	"Description"   "The fog used for the exterior of Enrichment Spheres, or the partially-constructed 80s style."
@@ -326,15 +353,6 @@
 	"StyleVar"
 		{
 		"ID"    "RestartOnExit"
-		"Style" "BEE2_1950s"
-		"Style" "BEE2_1960s"
-		"Style" "BEE2_1970s"
-		"Style" "BEE2_1980s"
-		}
-			
-	"StyleVar"
-		{
-		"ID"    "BlockPlayerGelBomb"
 		"Style" "BEE2_1950s"
 		"Style" "BEE2_1960s"
 		"Style" "BEE2_1970s"
@@ -984,6 +1002,20 @@
 	
 "PackList"
 	{
+	"ID"       "PACK_LIGHT_BRIDGE_RETRO"
+	"Config" 
+		{
+		"" "models/BEE2/props_underground/light_bridge.mdl"
+		"" "materials/BEE2/models/props_underground/light_bridge_coils.vmt"
+		"" "materials/BEE2/models/props_underground/light_bridge_coils.vtf"
+		"" "materials/BEE2/models/props_underground/light_bridge_coils_n.vtf"
+		"" "materials/BEE2/models/props_underground/light_bridge_lamp.vmt"
+		"" "materials/BEE2/models/props_underground/light_bridge_lamp.vtf"
+		}
+	}
+	
+"PackList"
+	{
 	// 80s floor buttons - the destroyed models, but using clean skins.
 	"ID" "PACK_FLOOR_BUTTON_PROTOTYPE"
 	"Config"
@@ -1026,6 +1058,7 @@
 		"File" "models/BEE2/props_underground/piston_mid.mdl"
 		"File" "models/BEE2/props_underground/piston_top.mdl"
 		"File" "models/BEE2/props_underground/piston_plat.mdl"
+		"File" "models/BEE2/props_underground/piston_plat_panel.mdl"
 		"File" "materials/BEE2/models/props_underground/metalbeam_bts_001c.vmt"
 		"File" "materials/BEE2/models/props_underground/factory_metal_floor001a.vmt"
 		}
@@ -1285,7 +1318,13 @@
 	"Config" "rusty_ball"
 	}
 	
-	
+"BrushTemplate"
+	{
+	"ID"    "BEE2_CUBE_DROPPER_RETRO_CAP"
+	"File"  "dropper_cap.vmf"
+	}
+
+
 "PackList"
 	{
 	// The track-platform track model, but resized to 128.
@@ -1758,9 +1797,23 @@
 			"Styles"
 				{
 				"BEE2_1950s"		"fizz"
-				"BEE2_1960s"		"fizz_sparky"
+				"BEE2_1960s"
+					{
+					"Folder" "fizz"
+					"Config" "fizz_sparky.cfg"
+					}
 				"BEE2_1970s"		"fizz"
-				"BEE2_1980s"		"fizz_improved"
+				"BEE2_1980s"
+					{
+					"Folder" "fizz"
+					"Append"
+						{
+						"Replacements"
+							{
+							"%INST_FOLDER%" "instances/BEE2/80s/items/fizzler/"
+							}
+						}
+					}
 				}
 			}
 		}
@@ -1812,7 +1865,6 @@
 			"Styles"
 				{
 				"BEE2_1950s"		"bridge_50s"
-				"BEE2_1970s"		"bridge_70s"
 				"BEE2_1980s"		"bridge_80s"
 				}
 			}
@@ -1934,11 +1986,52 @@
 			{
 			"Styles"
 				{
-				"BEE2_1950s"		"piston_plat_50s"
+				"BEE2_1950s"    "piston_plat"
+				"BEE2_1970s"
+					{
+					"Folder" "piston_plat"
+					"Append"
+						{
+						"Replacements"
+							{
+							"%STATIC_0_METAL%"   "instances/BEE2/70s/items/pist_plat/static_0_metal.vmf"
+							"%GRATE_INST%"       "instances/BEE2/70s/items/pist_plat/grate.vmf"
+							"%STATIC_BASE%"      "instances/BEE2/70s/items/pist_plat/static_base.vmf"
+							"%STATIC_TOP_METAL%" "instances/BEE2/70s/items/pist_plat/static_top_gls.vmf"
+							"%STATIC_TOP_BRUSH%" "instances/BEE2/50s/items/pist_plat/static_top_brush.vmf"
+							}
+						}
+					}
+				"BEE2_1980s"
+					{
+					"Folder" "piston_plat"
+					"Append"
+						{
+						"Replacements"
+							{
+							"%STATIC_0_METAL%"   "instances/BEE2/80s/items/pist_plat/static_0_metal.vmf"
+							"%GRATE_INST%"       "instances/BEE2/80s/items/pist_plat/grate.vmf"
+							"%STATIC_BASE%"      "instances/BEE2/80s/items/pist_plat/static_base.vmf"
+							"%STATIC_TOP_METAL%" "instances/BEE2/70s/items/pist_plat/static_top_gls.vmf"
+							"%STATIC_TOP_BRUSH%" "instances/BEE2/80s/items/pist_plat/static_top_brush.vmf"
+							"%STATIC_PUSHOUT%"   "instances/bee2/80s/items/pist_plat/static_pushout.vmf"
+							"%VIS_PANEL%"        "pist_brush_80s"
+							}
+						}
+					}
 				}
 			}
 		}
-		
+	}
+
+"BrushTemplate"
+	{
+	"ID"    "BEE2_PISTON_PLATFORM_RETRO"
+	"File"  "piston_plat.vmf"
+	}
+	
+"Overrides"
+	{
 	"Item"
 		{
 		"ID" "ITEM_TURRET"
@@ -1977,7 +2070,30 @@
 				}
 			}
 		}
-		
+	}
+	
+
+"BrushTemplate"
+	{
+	"ID"    "BEE2_GLASS_TEMPLATE_50s"
+	"File"  "glass_template_50s.vmf"
+	}
+"BrushTemplate"
+	{
+	"ID"    "BEE2_GLASS_TEMPLATE_70s"
+	"File"  "glass_template_70s.vmf"
+	}
+
+"BrushTemplate"
+	{
+	// No rotation, fitting the grid.
+	"ID"    "BEE2_GRATING_TEMPLATE_SQUARE"
+	"File"  "grating_template.vmf"
+	}
+	
+	
+"Overrides"
+	{		
 	"Item"
 		{
 		"ID" "ITEM_PANEL_ANGLED"
